@@ -4,7 +4,7 @@ Schdeuler According to time and open in app gallery
 
 Installation Instructions:
 
-step 1: Open terminal in route folder
+step 1: Open terminal in project folder
 
 step 2: git clone https://github.com/karthikcyadav98/scheduler.git
 
