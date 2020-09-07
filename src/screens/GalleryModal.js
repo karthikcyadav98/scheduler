@@ -32,7 +32,7 @@ const GalleryModal = ({visible, data, onClose}) => {
 								<Image
 									style={{width: 200, height: 200, marginBottom: 10}}
 									source={{
-										uri: item.urls.raw
+										uri: item.user.profile_image.large
 									}}
 								/>
 							</View>

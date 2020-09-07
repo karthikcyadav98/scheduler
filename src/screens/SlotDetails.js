@@ -188,7 +188,7 @@ const styles = StyleSheet.create({
 		flexDirection: 'row'
 	},
 	titleText: {
-		fontSize: 20,
+		fontSize: Platform.OS === 'android' ? 20 : 18,
 		fontWeight: 'bold'
 	},
 	cancelBtn: {

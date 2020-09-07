@@ -64,13 +64,14 @@ const styles = StyleSheet.create({
 	},
 	card: {
 		margin: 20,
+		flex: 1,
+		alignItems: 'center',
+		justifyContent: 'center',
 		// backgroundColor: '#40474c'
 		borderWidth: 1
 	},
 	timeText: {
-		justifyContent: 'center',
-		alignItems: 'center',
-		marginLeft: SCREEN_WIDTH * 0.3,
+		// marginLeft: SCREEN_WIDTH * 0.3,
 		marginTop: SCREEN_HEIGHT * 0.03,
 		marginBottom: SCREEN_HEIGHT * 0.03,
 		fontSize: 25,
