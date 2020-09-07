@@ -6,7 +6,6 @@ const SCREEN_WIDTH = Dimensions.get('window').width;
 const SCREEN_HEIGHT = Dimensions.get('window').height;
 
 const GalleryModal = ({visible, data, onClose}) => {
-	console.log('ajjdhad', data);
 	return (
 		<Modal animationType="slide" visible={visible} onRequestClose={() => onClose()}>
 			<View>
@@ -28,7 +27,6 @@ const GalleryModal = ({visible, data, onClose}) => {
 							}}
 						>
 							<View>
-								{console.log('ahgdjhad', item.urls.raw)}
 								<Image
 									style={{width: 200, height: 200, marginBottom: 10}}
 									source={{
